@@ -1,12 +1,13 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/impactcite-an-xlnet-based-method-for-citation/citation-intent-classification-on-scicite)](https://paperswithcode.com/sota/citation-intent-classification-on-scicite?p=impactcite-an-xlnet-based-method-for-citation)
+
 # ImpactCite
-ImpactCite: A XLNet-based Solution Enabling Qualitative CitationImpact Analysis Utilizing Sentiment and Intent
+ImpactCite: A XLNet-based Solution Enabling Qualitative Citation Impact Analysis Utilizing Sentiment and Intent
 
 ## Files
-The data folder contains the **complete_corpus** file that stores the **Citation Sentiment Corpus**.  
-The **Duplicates_handling** files stores information about the processing and the invalid instances.  
-The **dataset** folder covers the files created with the notbooks included in this repository.  
-The **dataset_full** file consists of a list with the data samples and a list with the textual labels (o: neutral, p: positive, n: negative).  
-The **dataset_folds** file has a similar shape but the data and label lists are divided into the different folds.
+The **ImpactCite Intent** folder contains the pipeline and model checkpoint to train the intent classificaiton of ImpactCite.
 
-## Usage
-To create the clean dataset from scratch run the **dataset_cleaner** notebook followed by the **dataset_converter** notebook.
+The **ImpactCite Sentiment** folder contains the scripts to create the clean version of the **Sentiment Citation Corpus** called **Clean Sentiment Citation Corpus (CSC-Clean)**. This corpus can be used to train the **ImpactCite Sentiment** component.
+
+## Checkpoint files + code (ImpactCite Intent)
+https://cloud.dfki.de/owncloud/index.php/s/aS72TdD47iDPmJf
