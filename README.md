@@ -10,4 +10,4 @@ The **ImpactCite Intent** folder contains the pipeline and model checkpoint to t
 The **ImpactCite Sentiment** folder contains the scripts to create the clean version of the **Sentiment Citation Corpus** called **Clean Sentiment Citation Corpus (CSC-Clean)**. This corpus can be used to train the **ImpactCite Sentiment** component.
 
 ## Checkpoint files + code (ImpactCite Intent)
-https://cloud.dfki.de/owncloud/index.php/s/aS72TdD47iDPmJf
+[Checkpoint files + Code](https://cloud.dfki.de/owncloud/index.php/s/aS72TdD47iDPmJf)
